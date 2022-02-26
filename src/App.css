@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+:root {
+  --text-primary: #000;
+  --bgPrimary: #fff;
+  --bgSecondary: #f9f9f9;
+  --pink: #0071bd;
+  --light-blue: #e6f7ff;
+  --border: #d9d9d9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: var(--bgSecondary) !important;
+}
+a:hover {
+  color: var(--pink) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app {
+  display: flex;
+  overflow: hidden;
+}
+
+.main {
+  flex: 0.8;
+  width: 100%;
+}
+.routes {
+  padding: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    margin-left: 50px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (max-width: 1170px) {
+  .main {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .app {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .main {
+    flex: 1;
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .home-title {
+    font-size: 1rem !important;
+  }
+  .show-more {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    margin-top: 20px;
+  }
+}
+
+.select-news {
+  width: 180px;
+}
+.news-card {
+  min-height: 300px !important;
+}
+.news-image-container {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.news-title {
+  width: 70%;
+}
+
+.news-image-container .img {
+  width: 100px;
+  height: 100px;
+}
+.news-card p {
+  color: black;
+  margin: 10px 0px !important;
+}
+.provider-container {
+  display: flex;
+  justify-content: space-between;
+}
+.provider-name {
+  margin-left: 10px;
+}
+
+.home-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.show-more {
+  margin-top: 0px !important;
+}
+.show-more a {
+  color: var(--pink) !important;
+}
+.show-more a:hover {
+  color: var(--text-primary) !important;
+  text-decoration: underline !important;
+}
+
+.search-crypto {
+  margin: 20px auto 30px auto;
+  width: 250px;
+}
+.crypto-card-container {
+  min-height: 65vh !important;
+}
+.crypto-card {
+  min-width: 250px;
+}
+.crypto-card .crypto-image {
+  width: 35px;
+}
+
+.footer {
+  background-color: black;
   display: flex;
   flex-direction: column;
+  padding: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
