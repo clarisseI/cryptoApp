@@ -3,15 +3,17 @@
 
 
 
-### A cryptocurrency app using 
+### Depedencies
    - antd
    - millify
    - moment
-   - styled-components dependencies
-   -
+   - styled-components
+   - react-redux
    
- API used are coinranking to display different cryptocurrencies and bing-news-search to display news
-
+   
+### API used 
+- coinranking to display different cryptocurrencies and 
+- bing-news-search to display news
 
 
 ## To run the project:
