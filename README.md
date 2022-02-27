@@ -1,7 +1,8 @@
 ## Crypto App
 
 
-![BeFunky-collage](https://user-images.githubusercontent.com/37862639/155867517-cf112087-656c-4fa4-9b7e-06df0fcba13f.jpg)
+
+![BeFunky-collage (1)](https://user-images.githubusercontent.com/37862639/155867575-39868e93-ce8a-4ce9-9395-de6b08685576.jpg)
 
 
 ### Depedencies
