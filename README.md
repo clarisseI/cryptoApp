@@ -1,17 +1,20 @@
-## Slider Design
+## Crypto App
 
 
 
 
-A simple Image Slider Carousel With React js | React Swiper JS 
+### A cryptocurrency app using 
+   - antd
+   - millify
+   - moment
+   - styled-components dependencies
+   -
+   
+ API used are coinranking to display different cryptocurrencies and bing-news-search to display news
 
 
 
-
-
-
-
-## Getting Started with the project:
+## To run the project:
 
 ### npm i
 install node modules
@@ -24,4 +27,4 @@ Open http://localhost:3000 to view it in the browser.
 
 ## Check out the webpage
 
-link:  https://clarissei.github.io/SliderDesign/
+link: https://clarissei-cyptoapp.netlify.app/
