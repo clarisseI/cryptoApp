@@ -1,6 +1,6 @@
 ## Crypto App
 
-A simple crypto app that displays top 100 cryptocurrencies and news about them.
+A simple crypto app that displays top 100 cryptocurrencies and News about them.
 
 ![BeFunky-collage (1)](https://user-images.githubusercontent.com/37862639/155867575-39868e93-ce8a-4ce9-9395-de6b08685576.jpg)
 
